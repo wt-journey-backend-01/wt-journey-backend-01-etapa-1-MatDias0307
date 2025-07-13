@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBurger - Contato</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <div class="logo-container">
+                <a href="/">
+                    <img src="/images/logo.png" alt="DevBurger Logo" class="logo">
+                </a>
+            </div>
+            <nav>
+                <a href="/" class="nav-link">
+                    <i class="fas fa-utensils"></i>
+                    <span>Cardápio</span>
+                </a>
+                <a href="/api/lanches" class="nav-link">
+                    <i class="fas fa-code"></i>
+                    <span>Cardápio JSON</span>
+                </a>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="contato">
+                <h2>Entre em contato conosco</h2>
+                <form action="/contato" method="POST">
+                    <div class="form-group">
+                        <label for="nome">Seu nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Seu e-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>DevBurger &copy; 2025 - WebTech Journey Backend</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nome": "DevBurger Clássico",
+    "ingredientes": "Pão brioche, Carne 150g, Queijo cheddar, Alface americana, Tomate fresco, Molho especial"
+  },
+  {
+    "id": 2,
+    "nome": "Burger de Bacon",
+    "ingredientes": "Pão australiano, Carne 180g, Queijo prato, Bacon crocante, Cebola caramelizada, Molho barbecue"
+  },
+  {
+    "id": 3,
+    "nome": "Commit Veggie",
+    "ingredientes": "Pão integral, Burger de grão de bico, Queijo vegano, Rúcula, Tomate seco, Maionese de ervas"
+  },
+  {
+    "id": 4,
+    "nome": "Pull Request Chicken",
+    "ingredientes": "Pão de gergelim, Frango empanado, Queijo coalho, Alface roxa, Molho de iogurte"
+  },
+  {
+    "id": 5,
+    "nome": "Stack Overflow Spicy",
+    "ingredientes": "Pão ciabatta, Carne 200g, Queijo pepper jack, Jalapeños, Cebola roxa, Molho chipotle"
+  },
+  {
+    "id": 6,
+    "nome": "NullPointer Fish",
+    "ingredientes": "Pão de batata, Filé de peixe empanado, Queijo suíço, Alface americana, Molho tártaro"
+  }
+]
